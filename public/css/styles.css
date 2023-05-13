@@ -1,0 +1,45 @@
+html {
+    height: 100%;
+    background: #A3D0C3;
+}
+
+* {
+    font-family: 'Lucida Sans Unicode', sans-serif;
+}
+
+.content {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #A3D0C3;
+
+}
+
+form .item {
+    width: 100%;
+    height: 42px;
+    padding-left: 10px;
+    border: solid #7BA7AB;
+    border-radius: 8px;
+    outline: none;
+    background: #fce5d2;
+    color: #213b30;
+}
+
+button.item {
+
+    width: 106%;
+    height: 32px;
+    padding-left: 10px;
+    border: solid #7BA7AB;
+    border-radius: 8px;
+    outline: 15px;
+    background: #fce5d2;
+    color: #213b30;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
